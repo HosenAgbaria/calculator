@@ -1,13 +1,11 @@
 <! doctype html><meta charset"utf-8">
 <meta name ="calculator" content "a simple calculator">
 
-
 <head> 
 <title> calculator </title>
 
      
  <style> 
- 
 .button{
 width :50;
 height:50;
@@ -44,16 +42,14 @@ border-radius: 2%;
 background: linear-gradient(to right, rgba(255,0,0,0), rgba(0,191,255));
 height : 100%;
 }
-
+	 
 </style>
  </head>
 
 <body> 
 
-
 <div class ="backgrounddiv"></div>
 <div class ="main">
-
 <form name = "form">
 <input class ="textview" name ="textview" >
 </form>               
@@ -98,12 +94,11 @@ height : 100%;
 	  var result = document.form.textview.value;
 	  if(result){
 		document.form.textview.value = eval(result);
-
+	  }
 	}
-	}
+	     
 	function clean(){
 		document.form.textview.value = "";
-
 	}
 	
 	</script>
